@@ -101,7 +101,7 @@ void MazeWin::CreateBitmap()
     }
 
     DWORD* pBuff = new (std::nothrow)DWORD[row * col];
-    ::memset(pBuff, 0, row * col);
+    ::memset(pBuff, 0, row * col * sizeof(DWORD));
 
     if (pBuff == NULL)
     {
@@ -118,7 +118,7 @@ void MazeWin::CreateBitmap()
                 {
                     for (size_t t = j * m_pixFix; t < j * m_pixFix + m_pixFix; ++t)
                     {
-                        pBuff[k * col + t] = 0xeeeeee;
+                        pBuff[k * col + t] = 0xff0000;
                     }
                 }
             }

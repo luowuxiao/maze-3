@@ -72,7 +72,7 @@ bool Maze_Matrix::Init(const size_t rowCount, const size_t colCount)
     GenMaze();
 
 #ifdef _DEBUG
-    PrintMatrix();
+    //PrintMatrix();
 #endif // _DEBUG
 
     return true;
