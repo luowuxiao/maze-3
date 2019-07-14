@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="h">
+      <UniqueIdentifier>{430AC39D-F72F-42AF-A55E-678A1B5EBDAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c">
+      <UniqueIdentifier>{4FE93EE3-D0F1-4DC3-B72B-D77CFFD7C9B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>SR{4FE93EE3-D0F1-4DC3-B72B-D77CFFD7C9B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{E24C50CD-49CB-4E6B-BD34-E11230A7DCAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\h\Maze.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\App.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\BaseWindow.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\CommonHead.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\IRegistAdapt.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\RegistStyle.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\SimpleWnd.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\h\Maze_Matrix.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\rand.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\file_utils.h">
+      <Filter>vendor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\c\Maze.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\c\App.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\c\BaseWindow.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\c\IRegistAdapt.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\c\RegistStyle.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\c\SimpleWnd.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\c\Maze_Matrix.cpp">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\rand.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\file_utils.cpp">
+      <Filter>vendor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
